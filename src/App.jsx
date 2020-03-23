@@ -6,6 +6,7 @@ import Home from './views/Home'
 import Posts from './views/Posts'
 import Post from './views/Post'
 
+import 'react-bulma-components/dist/react-bulma-components.min.css'
 import './scss/main.scss'
 
 export default () => {

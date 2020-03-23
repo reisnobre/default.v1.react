@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default () => {
+export default function RNavigation () {
   return (
     <header id='r-header'>
       <nav>

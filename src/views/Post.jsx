@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useRouteMatch } from 'react-router-dom'
 
-export default () => {
+export default function About () {
   const match = useRouteMatch()
   const [post, setPost] = useState([])
 
@@ -13,6 +13,7 @@ export default () => {
 
   useEffect(() => {
     fetchPost()
+    // eslint-disable-next-line
   }, [])
 
   return (
