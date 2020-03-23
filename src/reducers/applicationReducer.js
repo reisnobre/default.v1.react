@@ -1,7 +1,7 @@
 import { SET_APPLICATION_CONN } from '../actions/types'
 
 const initalState = {
-  conn: 'prod'
+  conn: 'master'
 }
 export default (state = initalState, action) => {
   switch (action.type) {
