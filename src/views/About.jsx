@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About () {
+const About = () => {
   return (
     <main className='page' id='posts'>
       <div className='wrapper'>
@@ -9,3 +9,5 @@ export default function About () {
     </main>
   )
 }
+
+export default About

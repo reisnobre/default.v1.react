@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-export default function Posts () {
+const Posts = () => {
   const [posts, setPosts] = useState([])
 
   const fetchPosts = async () => {
@@ -26,3 +26,5 @@ export default function Posts () {
     </main>
   )
 }
+
+export default Posts

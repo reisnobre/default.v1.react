@@ -5,8 +5,7 @@ import { setAuthenticationToken } from '../actions/authenticationActions'
 
 const axios = api({ secure: false })
 
-export default function Login () {
-  // const [user, setUser] = useState([])
+const Login = () => {
   const dispatch = useDispatch()
 
   const credentails = {
@@ -27,6 +26,7 @@ export default function Login () {
   useEffect(() => {
     fetchTokens()
   }, [])
+
   return (
     <main className='page' id='Login'>
       <div className='wrapper'>
@@ -35,3 +35,4 @@ export default function Login () {
     </main>
   )
 }
+export default Login
